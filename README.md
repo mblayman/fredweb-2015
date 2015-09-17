@@ -17,4 +17,4 @@ if a site generator is just the tool you need.
 
 Follow along by cloning
 https://github.com/mblayman/fredweb-2015.git or
-[check out the GitHub repo directly][https://github.com/mblayman/fredweb-2015].
+[check out the GitHub repo directly](https://github.com/mblayman/fredweb-2015).
