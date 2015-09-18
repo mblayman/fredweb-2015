@@ -18,3 +18,13 @@ if a site generator is just the tool you need.
 Follow along by cloning
 https://github.com/mblayman/fredweb-2015.git or
 [check out the GitHub repo directly](https://github.com/mblayman/fredweb-2015).
+
+## Jekyll
+
+```bash
+$ sudo apt-get install ruby-dev
+$ gem install --user-install jekyll
+$ ~/.gem/ruby/1.9.1/bin/jekyll new jekyll_demo
+$ cd jekyll_demo
+$ ~/.gem/ruby/1.9.1/bin/jekyll serve
+```
