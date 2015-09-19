@@ -28,3 +28,11 @@ $ ~/.gem/ruby/1.9.1/bin/jekyll new jekyll_demo
 $ cd jekyll_demo
 $ ~/.gem/ruby/1.9.1/bin/jekyll serve
 ```
+
+## Hexo
+
+```bash
+$ sudo apt-get install npm
+$ npm install hexo-cli
+$ ./node_modules/hexo-cli/bin/hexo init hexo_demo
+```
