@@ -35,4 +35,7 @@ $ ~/.gem/ruby/1.9.1/bin/jekyll serve
 $ sudo apt-get install npm
 $ npm install hexo-cli
 $ ./node_modules/hexo-cli/bin/hexo init hexo_demo
+$ cd hexo_demo
+$ ../node_modules/hexo-cli/bin/hexo generate
+$ ../node_modules/hexo-cli/bin/hexo server
 ```
