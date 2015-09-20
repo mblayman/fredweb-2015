@@ -39,3 +39,17 @@ $ cd hexo_demo
 $ ../node_modules/hexo-cli/bin/hexo generate
 $ ../node_modules/hexo-cli/bin/hexo server
 ```
+
+## Hugo
+
+```bash
+$ wget https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_linux_amd64.tar.gz
+$ tar xzf hugo_0.14_linux_amd64.tar.gz
+$ ./hugo_0.14_linux_amd64/hugo_0.14_linux_amd64 new site hugo_demo
+$ cd hugo_demo
+$ ../hugo_0.14_linux_amd64/hugo_0.14_linux_amd64 new about.md
+<add some Markdown to about.md>
+$ git clone --recursive https://github.com/spf13/hugoThemes themes
+$ ../hugo_0.14_linux_amd64/hugo_0.14_linux_amd64 server \
+    --theme=hyde --buildDrafts --watch
+```
