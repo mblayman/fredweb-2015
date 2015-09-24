@@ -53,3 +53,15 @@ $ git clone --recursive https://github.com/spf13/hugoThemes themes
 $ ../hugo_0.14_linux_amd64/hugo_0.14_linux_amd64 server \
     --theme=hyde --buildDrafts --watch
 ```
+
+## Sphinx
+
+```bash
+$ sudo apt-get install python-virtualenv
+$ virtualenv venv
+$ . venv/bin/activate
+$ pip install Sphinx
+$ sphinx-quickstart sphinx_demo
+$ cd sphinx_demo
+$ make html
+```
