@@ -36,6 +36,7 @@ $ sudo apt-get install npm
 $ npm install hexo-cli
 $ ./node_modules/hexo-cli/bin/hexo init hexo_demo
 $ cd hexo_demo
+$ npm install
 $ ../node_modules/hexo-cli/bin/hexo generate
 $ ../node_modules/hexo-cli/bin/hexo server
 ```
