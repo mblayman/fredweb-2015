@@ -1,6 +1,6 @@
 *.swp
 node_modules
-hugo_0.14_linux_amd64.tar.gz
-hugo_0.14_linux_amd64
+hugo_0*
+hugo_0*
 venv
 _build

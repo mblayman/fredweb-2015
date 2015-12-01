@@ -1,11 +1,8 @@
 +++
-date = "2015-09-18T22:45:33-04:00"
+date = "2015-12-01T15:44:05-05:00"
 draft = true
 title = "about"
 
 +++
-# Hello Hugo
 
-Hi, world.
-
-Live reload is pretty cool.
+# Hello World
